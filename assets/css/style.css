@@ -354,7 +354,32 @@ main {
   padding: 3px 12px;
   border-radius: 8px;
 }
+.website{
+  color: var(--white-1);
+  background: var(--onyx);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+  margin-left: 65px;
+  margin-top: 5px;
+}
 
+.info-content img{
+  height: 100px;
+  margin-left: 40px;
+}
+
+@media screen and (max-width:1260px) {
+  .info-content img{
+    display:none;
+  }
+  .website{
+    margin-top: 10px;
+    margin-left: 50px;
+ }
+}
 .info_more-btn {
   position: absolute;
   top: -15px;
